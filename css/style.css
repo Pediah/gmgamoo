@@ -504,13 +504,13 @@
     left: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: rgba(21, 185, 217, .5);
+    background: rgb(123,125,101);
     transition: 0.5s;
     z-index: 3;
 }
 
 .service .service-item:hover .service-content::before {
-    background: rgba(21, 185, 217, .5);
+    background: rgb(123,125,101);
     height: 100%;
 }
 
@@ -1039,7 +1039,7 @@
 }
 
 .blog .blog-item:hover .blog-img::after {
-    background: rgba(21, 185, 217, .5);
+    background: rgba(123, 125, 101, 0.616);
 }
 
 .blog .blog-item .blog-centent {
