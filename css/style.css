@@ -482,7 +482,7 @@
 
 .service .service-item:hover .service-img::before {
     height: 100%;
-    background: rgba(21, 185, 217, .3);
+    background:white;
 }
 
 .service .service-item .service-img:hover img {
@@ -772,7 +772,8 @@
 }
 
 .team .team-item:hover .team-img::before {
-    background: rgba(21, 185, 217, .3);
+    background: rgba(223,225,221,255);
+    opacity: 0.5;
 }
 
 .team .team-item .team-content {
@@ -798,7 +799,10 @@
 
 /*** testimonial Start ***/
 .testimonial {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    background: linear-gradient(
+  rgba(204,199,193, 0.9),  
+  rgba(204,199,193, 0.9)
+), url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
