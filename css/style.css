@@ -71,8 +71,9 @@
 }
 
 .btn.btn-primary:hover {
-    box-shadow: inset 300px 0 0 0 var(--bs-light) !important;
+    box-shadow: inset 300px 0 0 0 var(--bs-white) !important;
     color: var(--bs-primary) !important;
+    border-color: var(--bs-primary); /* keeps border sharp */
 }
 
 .btn.btn-light {
@@ -483,7 +484,7 @@
 .service .service-item:hover .service-img::before {
     height: 100%;
     background:white;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .service .service-item .service-img:hover img {
