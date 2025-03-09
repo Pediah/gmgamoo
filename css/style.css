@@ -1,6 +1,9 @@
 
 /*** Spinner Start ***/
 /*** Spinner ***/
+body {
+    overflow-x: hidden;
+}
 #spinner {
     opacity: 0;
     visibility: hidden;
