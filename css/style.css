@@ -3,6 +3,7 @@
 /*** Spinner ***/
 body {
     overflow-x: hidden;
+    overflow: hidden;
 }
 #spinner {
     opacity: 0;
